@@ -19,6 +19,9 @@ class Dog
   def breed 
     @breed
   end
+  if breed == nil
+    Mutt
+  end
 end
 
   
