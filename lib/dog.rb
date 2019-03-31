@@ -4,7 +4,8 @@ class Dog
     @breed = breed
   end
   
-  def initialize(breed)
+  def initialize(name,breed)
+    @name = name
     @breed = "Mutt"
   end
   
